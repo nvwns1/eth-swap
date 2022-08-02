@@ -13,10 +13,12 @@ module.exports = {
   contracts_build_directory: './src/abis/',
   compilers: {
     solc: {
+      version: "0.8.15", 
       optimizer: {
         enabled: true,
         runs: 200
-      }
+      },
+      // evmVersion: "peterburg"
     }
   }
 }
